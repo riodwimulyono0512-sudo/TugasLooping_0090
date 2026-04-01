@@ -29,7 +29,7 @@ bool isFibonacci(int n) {
         }
         a = b;
         b = c;
-        c = a + b
+        c = a + b;
         }
         return false;
     }
@@ -46,5 +46,14 @@ void tampilHasilPrima() {
         cout << angka << " adalah bilangan prima.\n";
     } else {
         cout << angka << " bukan bilangan prima.\n";
+    }
+}
+
+// Prosedur tampil hasil fibonacci
+void tampilHasilFibonacci() {
+    if (isFibonacci(angka)) {
+        cout << angka << " termasuk bilangan Fibonacci.\n";
+    } else {
+        cout << angka << " bukan bilangan Fibonacci.\n";
     }
 }
