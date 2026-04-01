@@ -30,3 +30,6 @@ bool isFibonacci(int n) {
         a = b;
         b = c;
         c = a + b
+        }
+        return false;
+    }
