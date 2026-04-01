@@ -57,3 +57,6 @@ void tampilHasilFibonacci() {
         cout << angka << " bukan bilangan Fibonacci.\n";
     }
 }
+
+// Function menu
+void menu() {
