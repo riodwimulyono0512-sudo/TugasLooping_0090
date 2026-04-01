@@ -66,3 +66,9 @@ void menu() {
     cout << "0. Keluar\n";
     cout << "Pilih menu: ";
 }
+
+// Main program
+int main() {
+    while (true) {
+        menu();
+        cin >> pilihan;
